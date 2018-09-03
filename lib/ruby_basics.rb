@@ -3,7 +3,7 @@ def division(num1, num2)
 end
 
 def assign_variable(value)
-  value = "Ray"
+  value = "Bob"
 end
 
 def argue
@@ -14,14 +14,14 @@ def greeting
 
 end
 
-def return_a_value
-
+def return_a_value(value = "Nice")
+  value
 end
 
 def last_evaluated_value
-
+  return "expert"
 end
 
-def pizza_party
-
+def pizza_party(ingredient = "Cheese")
+  ingredient
 end
